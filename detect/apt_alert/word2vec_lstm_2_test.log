@@ -1,0 +1,629 @@
+###############Alert###############
+currentTime:1523556194106186440
+AnomalyScore: 0.991
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 /tmp/tmux-1002 nginx 
+node_level: TP: 3, FP: 1, GT: 17
+path_level: TP: 1, FP: 0
+
+###############Alert###############
+currentTime:1523556194106186440
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 /tmp/tmux-1002 nginx 
+node_level: TP: 3, FP: 3, GT: 17
+path_level: TP: 2, FP: 0
+
+###############Alert###############
+currentTime:1523556194106186440
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 65142C5B-32FF-825F-BF32-60951F827170 /lib/libthr.so.3], ts:1523556194106186440: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 /tmp/tmux-1002 nginx 
+node_level: TP: 3, FP: 4, GT: 17
+path_level: TP: 3, FP: 0
+
+###############Alert###############
+currentTime:1523556194116187501
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File D57B2A07-B373-B75A-B3B3-93790AB76535 /lib/libm.so.5], ts:1523556194116187501: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 /tmp/tmux-1002 nginx 
+node_level: TP: 3, FP: 5, GT: 17
+path_level: TP: 4, FP: 0
+
+###############Alert###############
+currentTime:1523556194116187501
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 9FF334BB-9072-D756-B290-556656D73728 /lib/libutil.so.9], ts:1523556194116187501: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 /tmp/tmux-1002 nginx 
+node_level: TP: 3, FP: 6, GT: 17
+path_level: TP: 5, FP: 0
+
+###############Alert###############
+currentTime:1523556194116187501
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File DAEA59C0-0137-3357-B701-286F3733F030 /lib/libpcap.so.8], ts:1523556194116187501: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 /tmp/tmux-1002 nginx 
+node_level: TP: 3, FP: 7, GT: 17
+path_level: TP: 6, FP: 0
+
+###############Alert###############
+currentTime:1523556194136187223
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 76A739B1-A13E-FD50-BEA1-B218A0FD0400 /lib/libc.so.7], ts:1523556194136187223: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 /tmp/tmux-1002 nginx 
+node_level: TP: 3, FP: 8, GT: 17
+path_level: TP: 7, FP: 0
+
+###############Alert###############
+currentTime:1523556194146188144
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File F410BE96-4C0C-765E-8C4C-6F0E2E760020 /dev/hpet0], ts:1523556194146188144: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 /tmp/tmux-1002 nginx 
+node_level: TP: 3, FP: 9, GT: 17
+path_level: TP: 8, FP: 0
+
+###############Alert###############
+currentTime:1523556405396185538
+AnomalyScore: 0.991
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A sshd], ts:1523556405396185538: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 sshd /tmp/tmux-1002 nginx 
+node_level: TP: 4, FP: 9, GT: 17
+path_level: TP: 9, FP: 0
+
+###############Alert###############
+currentTime:1523556762536176905
+AnomalyScore: 0.991
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 74D78344-4A18-265B-984A-8D22BB26DDCF /tmp/minions], ts:1523556751146174254: 0.1
+Event: [File 74D78344-4A18-265B-984A-8D22BB26DDCF /tmp/minions] -> process load -> [Process 17C4C0C3-3E7D-11E8-A5CB-3FA3753A265A master], ts:1523556762536176905: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 /tmp/minions nginx 
+node_level: TP: 5, FP: 9, GT: 17
+path_level: TP: 10, FP: 0
+
+###############Alert###############
+currentTime:1523556906856170962
+AnomalyScore: 0.991
+AlertPath:
+Event: [File 7FBC194F-80BB-D556-BB80-114236D578A1 /usr/bin/ssh] -> process load -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A bash], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> process modify -> [Process 4BDC48E1-3E7C-11E8-A5CB-3FA3753A265A ssh], ts:1523556880236170861: 0.1
+Event: [Process 4BDC48E1-3E7C-11E8-A5CB-3FA3753A265A bash] -> file write -> [File 7C86603B-42CF-C158-8F42-E9B268C1AFA5 /home/admin/.bash_history-20112.tmp], ts:1523556906856170962: 0.1
+false positive:
+node_level: TP: 5, FP: 13, GT: 17
+path_level: TP: 10, FP: 1
+
+###############Alert###############
+currentTime:1523556929346168722
+AnomalyScore: 0.991
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 74D78344-4A18-265B-984A-8D22BB26DDCF /tmp/minions], ts:1523556751146174254: 0.1
+Event: [File 74D78344-4A18-265B-984A-8D22BB26DDCF /tmp/minions] -> process load -> [Process 7B30E76D-3E7D-11E8-A5CB-3FA3753A265A sshd], ts:1523556929346168722: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 sshd /tmp/minions nginx 
+node_level: TP: 5, FP: 13, GT: 17
+path_level: TP: 11, FP: 1
+
+###############Alert###############
+currentTime:1523557044046166780
+AnomalyScore: 0.991
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File F993C224-C6AD-AB5C-ADC6-09316CABFFD8 /tmp/font], ts:1523557036356168889: 0.1
+Event: [File F993C224-C6AD-AB5C-ADC6-09316CABFFD8 /tmp/font] -> process load -> [Process BF8EF43F-3E7D-11E8-A5CB-3FA3753A265A sshd], ts:1523557044046166780: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 sshd /tmp/font nginx 
+node_level: TP: 6, FP: 13, GT: 17
+path_level: TP: 12, FP: 1
+
+###############Alert###############
+currentTime:1523557208576163772
+AnomalyScore: 0.991
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 /tmp/XIM nginx 
+node_level: TP: 7, FP: 14, GT: 17
+path_level: TP: 13, FP: 1
+
+###############Alert###############
+currentTime:1523557208586166333
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 XIM /tmp/XIM nginx 
+node_level: TP: 8, FP: 15, GT: 17
+path_level: TP: 14, FP: 1
+
+###############Alert###############
+currentTime:1523557234656166072
+AnomalyScore: 0.9942800653040409
+AlertPath:
+Event: [File 7FBC194F-80BB-D556-BB80-114236D578A1 /usr/bin/ssh] -> process load -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A bash], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File 36CE0E7B-67F3-D35D-B367-D7539DD3AC7E /etc/pwd.db], ts:1523556880276178535: 0.1
+Event: [File 36CE0E7B-67F3-D35D-B367-D7539DD3AC7E /etc/pwd.db] -> file read -> [Process 310C0B30-3E7E-11E8-A5CB-3FA3753A265A local], ts:1523557234626165527: 0.7061647772789001
+Event: [Process 310C0B30-3E7E-11E8-A5CB-3FA3753A265A local] -> file write -> [File 1F8C88E9-C095-B151-95C0-07C0D1B1AF01 active/54F9929CC8], ts:1523557234646164280: 0.1
+Event: [File 1F8C88E9-C095-B151-95C0-07C0D1B1AF01 active/54F9929CC8] -> file read -> [Process 311B4B03-3E7E-11E8-A5CB-3FA3753A265A local], ts:1523557234656166072: 0.1
+false positive:
+node_level: TP: 8, FP: 18, GT: 17
+path_level: TP: 14, FP: 2
+
+###############Alert###############
+currentTime:1523557234816161544
+AnomalyScore: 0.9942800653040409
+AlertPath:
+Event: [File 7FBC194F-80BB-D556-BB80-114236D578A1 /usr/bin/ssh] -> process load -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A bash], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File 36CE0E7B-67F3-D35D-B367-D7539DD3AC7E /etc/pwd.db], ts:1523556880276178535: 0.1
+Event: [File 36CE0E7B-67F3-D35D-B367-D7539DD3AC7E /etc/pwd.db] -> file read -> [Process 310C0B30-3E7E-11E8-A5CB-3FA3753A265A local], ts:1523557234666164403: 0.7061647772789001
+Event: [Process 310C0B30-3E7E-11E8-A5CB-3FA3753A265A local] -> file write -> [File 1F8C88E9-C095-B151-95C0-07C0D1B1AF01 active/54F9929CC8], ts:1523557234816161544: 0.1
+Event: [File 1F8C88E9-C095-B151-95C0-07C0D1B1AF01 active/54F9929CC8] -> file read -> [Process 3129F3FB-3E7E-11E8-A5CB-3FA3753A265A local], ts:1523557234816161544: 0.1
+false positive:
+node_level: TP: 8, FP: 18, GT: 17
+path_level: TP: 14, FP: 3
+
+###############Alert###############
+currentTime:1523557273216165672
+AnomalyScore: 0.991
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A sshd], ts:1523557273216165672: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 sshd /tmp/XIM nginx 
+node_level: TP: 8, FP: 18, GT: 17
+path_level: TP: 15, FP: 3
+
+###############Alert###############
+currentTime:1523557273236165054
+AnomalyScore: 0.99919
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 XIM /tmp/XIM nginx 
+node_level: TP: 8, FP: 18, GT: 17
+path_level: TP: 16, FP: 3
+
+###############Alert###############
+currentTime:1523557296926162371
+AnomalyScore: 0.9982840195912123
+AlertPath:
+Event: [File 7FBC194F-80BB-D556-BB80-114236D578A1 /usr/bin/ssh] -> process load -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A bash], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File 36CE0E7B-67F3-D35D-B367-D7539DD3AC7E /etc/pwd.db], ts:1523556880276178535: 0.1
+Event: [File 36CE0E7B-67F3-D35D-B367-D7539DD3AC7E /etc/pwd.db] -> file read -> [Process 310C0B30-3E7E-11E8-A5CB-3FA3753A265A local], ts:1523557234666164403: 0.7061647772789001
+Event: [Process 310C0B30-3E7E-11E8-A5CB-3FA3753A265A local] -> file write -> [File 1F8C88E9-C095-B151-95C0-07C0D1B1AF01 active/54F9929CC8], ts:1523557234816161544: 0.1
+Event: [File 1F8C88E9-C095-B151-95C0-07C0D1B1AF01 active/54F9929CC8] -> file read -> [Process 3129F3FB-3E7E-11E8-A5CB-3FA3753A265A local], ts:1523557234816161544: 0.1
+Event: [Process 3129F3FB-3E7E-11E8-A5CB-3FA3753A265A local] -> file write -> [File 9E73BB16-5C8B-E854-8B5C-1CC594E8F5E7 /var/spool/postfix/active/86E3629CC8], ts:1523557296926162371: 0.1
+false positive:
+node_level: TP: 8, FP: 19, GT: 17
+path_level: TP: 16, FP: 4
+
+###############Alert###############
+currentTime:1523557299936161106
+AnomalyScore: 0.999757
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 10A312B0-5B87-B35C-875B-5FF05CB3FD5D /.], ts:1523557299936161106: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 XIM /tmp/XIM nginx 
+node_level: TP: 8, FP: 20, GT: 17
+path_level: TP: 17, FP: 4
+
+###############Alert###############
+currentTime:1523557312116159455
+AnomalyScore: 0.999757
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 3209A26F-A6EF-0350-AFA6-B1BD1003D390 /tmp/.], ts:1523557312116159455: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 XIM /tmp/XIM nginx 
+node_level: TP: 8, FP: 21, GT: 17
+path_level: TP: 18, FP: 4
+
+###############Alert###############
+currentTime:1523557316606160604
+AnomalyScore: 0.999757
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 4F66A7D8-7695-7051-9576-684791704F29 /etc/passwd], ts:1523557316606160604: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 XIM /tmp/XIM nginx 
+node_level: TP: 8, FP: 22, GT: 17
+path_level: TP: 19, FP: 4
+
+###############Alert###############
+currentTime:1523557392736161023
+AnomalyScore: 0.999757
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 57F81A85-12E4-0A52-A412-AF02620A2A60 /var/log/.], ts:1523557392736161023: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 XIM /tmp/XIM nginx 
+node_level: TP: 8, FP: 23, GT: 17
+path_level: TP: 20, FP: 4
+
+###############Alert###############
+currentTime:1523557424536159661
+AnomalyScore: 0.999757
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File E5F1BC5B-052D-3F5F-AD05-928A8F3FF746 /var/log/netlog], ts:1523557424536159661: 0.1
+true positive:
+attack nodes detected: nginx /var/log/netlog XIM /tmp/XIM 25.159.96.207 
+node_level: TP: 9, FP: 23, GT: 17
+path_level: TP: 21, FP: 4
+
+###############Alert###############
+currentTime:1523557597066156701
+AnomalyScore: 0.999757
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File CBBF8038-5237-8651-B752-A1C99186128A /var/log/sendmail], ts:1523557597066156701: 0.1
+true positive:
+attack nodes detected: /var/log/sendmail nginx XIM /tmp/XIM 25.159.96.207 
+node_level: TP: 10, FP: 23, GT: 17
+path_level: TP: 22, FP: 4
+
+###############Alert###############
+currentTime:1523557617136153757
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File CBBF8038-5237-8651-B752-A1C99186128A /var/log/sendmail], ts:1523557597066156701: 0.1
+Event: [File CBBF8038-5237-8651-B752-A1C99186128A /var/log/sendmail] -> process load -> [Process 15267234-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557617136153757: 0.1
+true positive:
+attack nodes detected: /var/log/sendmail nginx XIM sshd /tmp/XIM 25.159.96.207 
+node_level: TP: 10, FP: 23, GT: 17
+path_level: TP: 23, FP: 4
+
+###############Alert###############
+currentTime:1523557617146155058
+AnomalyScore: 0.99997813
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File CBBF8038-5237-8651-B752-A1C99186128A /var/log/sendmail], ts:1523557597066156701: 0.1
+Event: [File CBBF8038-5237-8651-B752-A1C99186128A /var/log/sendmail] -> process load -> [Process 15267234-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557617136153757: 0.1
+Event: [Process 15267234-3E7F-11E8-A5CB-3FA3753A265A sendmail] -> file write -> [File DAEA59C0-0137-3357-B701-286F3733F030 /lib/libpcap.so.8], ts:1523557617146155058: 0.1
+true positive:
+attack nodes detected: /var/log/sendmail nginx XIM sshd /tmp/XIM 25.159.96.207 
+node_level: TP: 10, FP: 24, GT: 17
+path_level: TP: 24, FP: 4
+
+###############Alert###############
+currentTime:1523557630696154168
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File CBBF8038-5237-8651-B752-A1C99186128A /var/log/sendmail], ts:1523557597066156701: 0.1
+Event: [File CBBF8038-5237-8651-B752-A1C99186128A /var/log/sendmail] -> process load -> [Process 1D3ACF79-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557630696154168: 0.1
+true positive:
+attack nodes detected: /var/log/sendmail nginx XIM sshd /tmp/XIM 25.159.96.207 
+node_level: TP: 10, FP: 24, GT: 17
+path_level: TP: 25, FP: 4
+
+###############Alert###############
+currentTime:1523557703996153475
+AnomalyScore: 0.999757
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File ACA5B1C8-C18E-1C50-8EC1-31B6601C1417 /var/.], ts:1523557703996153475: 0.1
+true positive:
+attack nodes detected: 25.159.96.207 XIM /tmp/XIM nginx 
+node_level: TP: 10, FP: 25, GT: 17
+path_level: TP: 26, FP: 4
+
+###############Alert###############
+currentTime:1523557727956150660
+AnomalyScore: 0.999757
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main], ts:1523557727956150660: 0.1
+true positive:
+attack nodes detected: nginx XIM /tmp/XIM 25.159.96.207 /tmp/main 
+node_level: TP: 11, FP: 25, GT: 17
+path_level: TP: 27, FP: 4
+
+###############Alert###############
+currentTime:1523557737406150415
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main], ts:1523557727956150660: 0.1
+Event: [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main] -> process load -> [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557737406150415: 0.1
+true positive:
+attack nodes detected: nginx XIM sshd /tmp/XIM 25.159.96.207 /tmp/main 
+node_level: TP: 11, FP: 25, GT: 17
+path_level: TP: 28, FP: 4
+
+###############Alert###############
+currentTime:1523557737406150415
+AnomalyScore: 0.99997813
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main], ts:1523557727956150660: 0.1
+Event: [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main] -> process load -> [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557737406150415: 0.1
+Event: [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A main] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523557737406150415: 0.1
+true positive:
+attack nodes detected: nginx XIM sshd /tmp/XIM main 25.159.96.207 /tmp/main 
+node_level: TP: 12, FP: 25, GT: 17
+path_level: TP: 29, FP: 4
+
+###############Alert###############
+currentTime:1523557737416150356
+AnomalyScore: 0.99997813
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main], ts:1523557727956150660: 0.1
+Event: [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main] -> process load -> [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557737406150415: 0.1
+Event: [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A main] -> file write -> [File 65142C5B-32FF-825F-BF32-60951F827170 /lib/libthr.so.3], ts:1523557737416150356: 0.1
+true positive:
+attack nodes detected: nginx XIM sshd /tmp/XIM main 25.159.96.207 /tmp/main 
+node_level: TP: 12, FP: 25, GT: 17
+path_level: TP: 30, FP: 4
+
+###############Alert###############
+currentTime:1523557737416150356
+AnomalyScore: 0.99997813
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main], ts:1523557727956150660: 0.1
+Event: [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main] -> process load -> [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557737406150415: 0.1
+Event: [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A main] -> file write -> [File D57B2A07-B373-B75A-B3B3-93790AB76535 /lib/libm.so.5], ts:1523557737416150356: 0.1
+true positive:
+attack nodes detected: nginx XIM sshd /tmp/XIM main 25.159.96.207 /tmp/main 
+node_level: TP: 12, FP: 25, GT: 17
+path_level: TP: 31, FP: 4
+
+###############Alert###############
+currentTime:1523557737416150356
+AnomalyScore: 0.99997813
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main], ts:1523557727956150660: 0.1
+Event: [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main] -> process load -> [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557737406150415: 0.1
+Event: [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A main] -> file write -> [File 9FF334BB-9072-D756-B290-556656D73728 /lib/libutil.so.9], ts:1523557737416150356: 0.1
+true positive:
+attack nodes detected: nginx XIM sshd /tmp/XIM main 25.159.96.207 /tmp/main 
+node_level: TP: 12, FP: 25, GT: 17
+path_level: TP: 32, FP: 4
+
+###############Alert###############
+currentTime:1523557737426152208
+AnomalyScore: 0.99997813
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main], ts:1523557727956150660: 0.1
+Event: [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main] -> process load -> [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557737406150415: 0.1
+Event: [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A main] -> file write -> [File 76A739B1-A13E-FD50-BEA1-B218A0FD0400 /lib/libc.so.7], ts:1523557737426152208: 0.1
+true positive:
+attack nodes detected: nginx XIM sshd /tmp/XIM main 25.159.96.207 /tmp/main 
+node_level: TP: 12, FP: 25, GT: 17
+path_level: TP: 33, FP: 4
+
+###############Alert###############
+currentTime:1523557737426152208
+AnomalyScore: 0.99997813
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main], ts:1523557727956150660: 0.1
+Event: [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main] -> process load -> [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557737406150415: 0.1
+Event: [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A main] -> file write -> [File F410BE96-4C0C-765E-8C4C-6F0E2E760020 /dev/hpet0], ts:1523557737426152208: 0.1
+true positive:
+attack nodes detected: nginx XIM sshd /tmp/XIM main 25.159.96.207 /tmp/main 
+node_level: TP: 12, FP: 25, GT: 17
+path_level: TP: 34, FP: 4
+
+###############Alert###############
+currentTime:1523557941296153503
+AnomalyScore: 0.999757
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 84D440C2-4E50-4A5C-904E-C4772C4ACD5A /tmp/test], ts:1523557941296153503: 0.1
+true positive:
+attack nodes detected: nginx XIM /tmp/test /tmp/XIM 25.159.96.207 
+node_level: TP: 13, FP: 25, GT: 17
+path_level: TP: 35, FP: 4
+
+###############Alert###############
+currentTime:1523557951986146784
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 84D440C2-4E50-4A5C-904E-C4772C4ACD5A /tmp/test], ts:1523557941296153503: 0.1
+Event: [File 84D440C2-4E50-4A5C-904E-C4772C4ACD5A /tmp/test] -> process load -> [Process DCBB8D5C-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557951986146784: 0.1
+true positive:
+attack nodes detected: nginx XIM sshd /tmp/test /tmp/XIM 25.159.96.207 
+node_level: TP: 13, FP: 25, GT: 17
+path_level: TP: 36, FP: 4
+
+###############Alert###############
+currentTime:1523558011166147460
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 84D440C2-4E50-4A5C-904E-C4772C4ACD5A /tmp/test], ts:1523557941296153503: 0.1
+Event: [File 84D440C2-4E50-4A5C-904E-C4772C4ACD5A /tmp/test] -> process load -> [Process 0001A528-3E80-11E8-A5CB-3FA3753A265A sshd], ts:1523558011166147460: 0.1
+true positive:
+attack nodes detected: nginx XIM sshd /tmp/test /tmp/XIM 25.159.96.207 
+node_level: TP: 13, FP: 25, GT: 17
+path_level: TP: 37, FP: 4
+
+###############Alert###############
+currentTime:1523558033346151918
+AnomalyScore: 0.9942800653040409
+AlertPath:
+Event: [File 7FBC194F-80BB-D556-BB80-114236D578A1 /usr/bin/ssh] -> process load -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A bash], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File 36CE0E7B-67F3-D35D-B367-D7539DD3AC7E /etc/pwd.db], ts:1523556880276178535: 0.1
+Event: [File 36CE0E7B-67F3-D35D-B367-D7539DD3AC7E /etc/pwd.db] -> file read -> [Process 0D0A31D3-3E80-11E8-A5CB-3FA3753A265A local], ts:1523558033296155681: 0.7061647772789001
+Event: [Process 0D0A31D3-3E80-11E8-A5CB-3FA3753A265A local] -> file write -> [File 02C91D4F-86D0-8457-9086-3B4957849BB4 active/E316729D16], ts:1523558033346151918: 0.1
+Event: [File 02C91D4F-86D0-8457-9086-3B4957849BB4 active/E316729D16] -> file read -> [Process 0D23DFDC-3E80-11E8-A5CB-3FA3753A265A local], ts:1523558033346151918: 0.1
+false positive:
+node_level: TP: 13, FP: 26, GT: 17
+path_level: TP: 37, FP: 5
+
+###############Alert###############
+currentTime:1523558095816150254
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Network Connect 5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A 25.159.96.207 : 45203] -> network receive -> [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx], ts:1523556022876190369: 0.1
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM], ts:1523557197146165314: 0.1
+Event: [File 5026C48F-56BA-3E5B-BA56-DD382B3EC82B /tmp/XIM] -> process load -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A inetd], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 84D440C2-4E50-4A5C-904E-C4772C4ACD5A /tmp/test], ts:1523557941296153503: 0.1
+Event: [File 84D440C2-4E50-4A5C-904E-C4772C4ACD5A /tmp/test] -> process load -> [Process 327621AE-3E80-11E8-A5CB-3FA3753A265A sshd], ts:1523558095816150254: 0.1
+true positive:
+attack nodes detected: nginx XIM sshd /tmp/test /tmp/XIM 25.159.96.207 
+node_level: TP: 13, FP: 26, GT: 17
+path_level: TP: 38, FP: 5
+
+###############Alert###############
+currentTime:1523558319146141906
+AnomalyScore: 0.9942800653040409
+AlertPath:
+Event: [File 7FBC194F-80BB-D556-BB80-114236D578A1 /usr/bin/ssh] -> process load -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A bash], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File 36CE0E7B-67F3-D35D-B367-D7539DD3AC7E /etc/pwd.db], ts:1523556880276178535: 0.1
+Event: [File 36CE0E7B-67F3-D35D-B367-D7539DD3AC7E /etc/pwd.db] -> file read -> [Process B76FBD8C-3E80-11E8-A5CB-3FA3753A265A local], ts:1523558319046139904: 0.7061647772789001
+Event: [Process B76FBD8C-3E80-11E8-A5CB-3FA3753A265A local] -> file write -> [File ECB41BB8-E3A1-4D51-A1E3-77E5814D4508 active/42E4229CD7], ts:1523558319146141906: 0.1
+Event: [File ECB41BB8-E3A1-4D51-A1E3-77E5814D4508 active/42E4229CD7] -> file read -> [Process B77DB6F0-3E80-11E8-A5CB-3FA3753A265A local], ts:1523558319146141906: 0.1
+false positive:
+node_level: TP: 13, FP: 27, GT: 17
+path_level: TP: 38, FP: 6
+

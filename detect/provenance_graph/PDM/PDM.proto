@@ -1,0 +1,90 @@
+syntax = "proto3";
+
+package PDM;
+
+enum LogContent {
+    PROCESS_FORK = 0;
+    PROCESS_EXEC = 1;
+    PROCESS_LOAD = 2;
+    FILE_OPEN = 3;
+    FILE_READ = 4;
+    FILE_WRITE = 5;
+    NET_CONNECT = 6;
+}
+
+message UUID {
+    uint64 lowUUID = 1;
+    uint64 highUUID = 2;
+}
+
+message Process {
+    UUID procUUID = 1;
+    string processName = 2;
+    string cmdline = 3;
+    string exePath = 4;
+}
+
+message File {
+    string filePath = 1;
+}
+
+// Network-related event data
+message IPAddress {
+    string ip = 1;
+}
+
+message NetEvent {
+    IPAddress sip = 1;
+    IPAddress dip = 2;
+    uint32 sport = 3;
+    uint32 dport = 4;
+
+    enum Direction {
+        IN = 0;
+        OUT = 1;
+        NONE = 2;
+    }
+
+    Direction direct = 5;
+}
+
+// Process-related event data
+message ProcessEvent {
+    Process childProc = 1;
+}
+
+// File-related event data
+message FileEvent {
+    File file = 1;
+}
+
+message EventHeader {
+    uint64 ts = 1;
+    Process proc = 2;
+}
+
+/* Event structure */
+message EventData {
+    EventHeader eHeader = 1;
+    oneof _data {
+        ProcessEvent processEvent = 2;
+        FileEvent fileEvent = 3;
+        NetEvent netEvent = 4;
+    }
+}
+
+message LogHeader {
+    UUID hostUUID = 1;
+    LogContent content = 2;
+    UUID eventUUID = 3;
+}
+
+/* Overall log data */
+message Log {
+    LogHeader uHeader = 1;
+    EventData eventData = 2;
+}
+
+message LogPack {
+    repeated Log data = 1;
+}

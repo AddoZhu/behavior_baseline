@@ -1,0 +1,1354 @@
+###############Alert###############
+currentTime:1523556194106186440
+AnomalyScore: 0.991
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 2, FP: 3, GT: 17
+path_level: TP: 1, FP: 0
+
+###############Alert###############
+currentTime:1523556194106186440
+AnomalyScore: 0.991
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556194106186440: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 2, FP: 4, GT: 17
+path_level: TP: 2, FP: 0
+
+###############Alert###############
+currentTime:1523556194106186440
+AnomalyScore: 0.991
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 65142C5B-32FF-825F-BF32-60951F827170 /lib/libthr.so.3], ts:1523556194106186440: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 2, FP: 5, GT: 17
+path_level: TP: 3, FP: 0
+
+###############Alert###############
+currentTime:1523556194116187501
+AnomalyScore: 0.991
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File D57B2A07-B373-B75A-B3B3-93790AB76535 /lib/libm.so.5], ts:1523556194116187501: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 2, FP: 6, GT: 17
+path_level: TP: 4, FP: 0
+
+###############Alert###############
+currentTime:1523556194116187501
+AnomalyScore: 0.991
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 9FF334BB-9072-D756-B290-556656D73728 /lib/libutil.so.9], ts:1523556194116187501: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 2, FP: 7, GT: 17
+path_level: TP: 5, FP: 0
+
+###############Alert###############
+currentTime:1523556194116187501
+AnomalyScore: 0.991
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File DAEA59C0-0137-3357-B701-286F3733F030 /lib/libpcap.so.8], ts:1523556194116187501: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 2, FP: 8, GT: 17
+path_level: TP: 6, FP: 0
+
+###############Alert###############
+currentTime:1523556194136187223
+AnomalyScore: 0.991
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 76A739B1-A13E-FD50-BEA1-B218A0FD0400 /lib/libc.so.7], ts:1523556194136187223: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 2, FP: 9, GT: 17
+path_level: TP: 7, FP: 0
+
+###############Alert###############
+currentTime:1523556194146188144
+AnomalyScore: 0.991
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File F410BE96-4C0C-765E-8C4C-6F0E2E760020 /dev/hpet0], ts:1523556194146188144: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 2, FP: 10, GT: 17
+path_level: TP: 8, FP: 0
+
+###############Alert###############
+currentTime:1523556405396185538
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 2, FP: 10, GT: 17
+path_level: TP: 9, FP: 0
+
+###############Alert###############
+currentTime:1523556405396185538
+AnomalyScore: 0.99919
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 2, FP: 10, GT: 17
+path_level: TP: 10, FP: 0
+
+###############Alert###############
+currentTime:1523556405396185538
+AnomalyScore: 0.99919
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 65142C5B-32FF-825F-BF32-60951F827170 /lib/libthr.so.3], ts:1523556405396185538: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 2, FP: 10, GT: 17
+path_level: TP: 11, FP: 0
+
+###############Alert###############
+currentTime:1523556405396185538
+AnomalyScore: 0.99919
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File D57B2A07-B373-B75A-B3B3-93790AB76535 /lib/libm.so.5], ts:1523556405396185538: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 2, FP: 10, GT: 17
+path_level: TP: 12, FP: 0
+
+###############Alert###############
+currentTime:1523556405406185419
+AnomalyScore: 0.99919
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 9FF334BB-9072-D756-B290-556656D73728 /lib/libutil.so.9], ts:1523556405406185419: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 2, FP: 10, GT: 17
+path_level: TP: 13, FP: 0
+
+###############Alert###############
+currentTime:1523556405406185419
+AnomalyScore: 0.99919
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File DAEA59C0-0137-3357-B701-286F3733F030 /lib/libpcap.so.8], ts:1523556405406185419: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 2, FP: 10, GT: 17
+path_level: TP: 14, FP: 0
+
+###############Alert###############
+currentTime:1523556405406185419
+AnomalyScore: 0.99919
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 76A739B1-A13E-FD50-BEA1-B218A0FD0400 /lib/libc.so.7], ts:1523556405406185419: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 2, FP: 10, GT: 17
+path_level: TP: 15, FP: 0
+
+###############Alert###############
+currentTime:1523556405416183819
+AnomalyScore: 0.99919
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File F410BE96-4C0C-765E-8C4C-6F0E2E760020 /dev/hpet0], ts:1523556405416183819: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 2, FP: 10, GT: 17
+path_level: TP: 16, FP: 0
+
+###############Alert###############
+currentTime:1523556762546185526
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 17C4C0C3-3E7D-11E8-A5CB-3FA3753A265A minions], ts:1523556762546185526: 0.1
+true positive:
+attack nodes detected: nginx minions /tmp/tmux-1002 
+node_level: TP: 3, FP: 10, GT: 17
+path_level: TP: 17, FP: 0
+
+###############Alert###############
+currentTime:1523556762546185526
+AnomalyScore: 0.999757
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 17C4C0C3-3E7D-11E8-A5CB-3FA3753A265A minions], ts:1523556762546185526: 0.1
+true positive:
+attack nodes detected: nginx minions /tmp/tmux-1002 
+node_level: TP: 3, FP: 10, GT: 17
+path_level: TP: 18, FP: 0
+
+###############Alert###############
+currentTime:1523556762546185526
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 17C4C0C3-3E7D-11E8-A5CB-3FA3753A265A minions], ts:1523556762546185526: 0.1
+Event: [Process 17C4C0C3-3E7D-11E8-A5CB-3FA3753A265A minions] -> file write -> [File 65142C5B-32FF-825F-BF32-60951F827170 /lib/libthr.so.3], ts:1523556762546185526: 0.1
+true positive:
+attack nodes detected: nginx minions /tmp/tmux-1002 
+node_level: TP: 3, FP: 10, GT: 17
+path_level: TP: 19, FP: 0
+
+###############Alert###############
+currentTime:1523556762546185526
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 17C4C0C3-3E7D-11E8-A5CB-3FA3753A265A minions], ts:1523556762546185526: 0.1
+Event: [Process 17C4C0C3-3E7D-11E8-A5CB-3FA3753A265A minions] -> file write -> [File D57B2A07-B373-B75A-B3B3-93790AB76535 /lib/libm.so.5], ts:1523556762546185526: 0.1
+true positive:
+attack nodes detected: nginx minions /tmp/tmux-1002 
+node_level: TP: 3, FP: 10, GT: 17
+path_level: TP: 20, FP: 0
+
+###############Alert###############
+currentTime:1523556762546185526
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 17C4C0C3-3E7D-11E8-A5CB-3FA3753A265A minions], ts:1523556762546185526: 0.1
+Event: [Process 17C4C0C3-3E7D-11E8-A5CB-3FA3753A265A minions] -> file write -> [File 9FF334BB-9072-D756-B290-556656D73728 /lib/libutil.so.9], ts:1523556762546185526: 0.1
+true positive:
+attack nodes detected: nginx minions /tmp/tmux-1002 
+node_level: TP: 3, FP: 10, GT: 17
+path_level: TP: 21, FP: 0
+
+###############Alert###############
+currentTime:1523556762556178167
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 17C4C0C3-3E7D-11E8-A5CB-3FA3753A265A minions], ts:1523556762546185526: 0.1
+Event: [Process 17C4C0C3-3E7D-11E8-A5CB-3FA3753A265A minions] -> file write -> [File DAEA59C0-0137-3357-B701-286F3733F030 /lib/libpcap.so.8], ts:1523556762556178167: 0.1
+true positive:
+attack nodes detected: nginx minions /tmp/tmux-1002 
+node_level: TP: 3, FP: 10, GT: 17
+path_level: TP: 22, FP: 0
+
+###############Alert###############
+currentTime:1523556762556178167
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 17C4C0C3-3E7D-11E8-A5CB-3FA3753A265A minions], ts:1523556762546185526: 0.1
+Event: [Process 17C4C0C3-3E7D-11E8-A5CB-3FA3753A265A minions] -> file write -> [File 76A739B1-A13E-FD50-BEA1-B218A0FD0400 /lib/libc.so.7], ts:1523556762556178167: 0.1
+true positive:
+attack nodes detected: nginx minions /tmp/tmux-1002 
+node_level: TP: 3, FP: 10, GT: 17
+path_level: TP: 23, FP: 0
+
+###############Alert###############
+currentTime:1523556762556178167
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 17C4C0C3-3E7D-11E8-A5CB-3FA3753A265A minions], ts:1523556762546185526: 0.1
+Event: [Process 17C4C0C3-3E7D-11E8-A5CB-3FA3753A265A minions] -> file write -> [File F410BE96-4C0C-765E-8C4C-6F0E2E760020 /dev/hpet0], ts:1523556762556178167: 0.1
+true positive:
+attack nodes detected: nginx minions /tmp/tmux-1002 
+node_level: TP: 3, FP: 10, GT: 17
+path_level: TP: 24, FP: 0
+
+###############Alert###############
+currentTime:1523556880206171169
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 11, GT: 17
+path_level: TP: 25, FP: 0
+
+###############Alert###############
+currentTime:1523556880206171169
+AnomalyScore: 0.999757
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 11, GT: 17
+path_level: TP: 26, FP: 0
+
+###############Alert###############
+currentTime:1523556880206171169
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File 052EDA6C-81A5-E858-A581-8684A8E895A2 /usr/lib/libprivatessh.so.5], ts:1523556880206171169: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 12, GT: 17
+path_level: TP: 27, FP: 0
+
+###############Alert###############
+currentTime:1523556880206171169
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File 7E9C53F7-06A2-BB5A-A206-8C6CFABBD7C1 /usr/lib/libgssapi.so.10], ts:1523556880206171169: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 13, GT: 17
+path_level: TP: 28, FP: 0
+
+###############Alert###############
+currentTime:1523556880206171169
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File B7F97F36-D8FD-1B5F-BDD8-81B94F1B0F75 /lib/libcrypto.so.8], ts:1523556880206171169: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 14, GT: 17
+path_level: TP: 29, FP: 0
+
+###############Alert###############
+currentTime:1523556880216170300
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File 05FAA6B0-4D64-7357-A44D-7A4E97737EA5 /usr/lib/libprivateldns.so.5], ts:1523556880216170300: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 15, GT: 17
+path_level: TP: 30, FP: 0
+
+###############Alert###############
+currentTime:1523556880216170300
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File 3D97AF44-5626-6855-A656-4616B5688F7E /lib/libcrypt.so.5], ts:1523556880216170300: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 16, GT: 17
+path_level: TP: 31, FP: 0
+
+###############Alert###############
+currentTime:1523556880216170300
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File DEADAC7C-AED5-7E50-95AE-0452707EB22B /lib/libz.so.6], ts:1523556880216170300: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 17, GT: 17
+path_level: TP: 32, FP: 0
+
+###############Alert###############
+currentTime:1523556880226172980
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File 1633500B-D34B-8058-8BD3-ABB7D880915E /dev/null], ts:1523556880226172980: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 18, GT: 17
+path_level: TP: 33, FP: 0
+
+###############Alert###############
+currentTime:1523556880226172980
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File BCDBE64D-1703-005A-8317-44DD6A00589D /etc/nsswitch.conf], ts:1523556880226172980: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 19, GT: 17
+path_level: TP: 34, FP: 0
+
+###############Alert###############
+currentTime:1523556880226172980
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File 36CE0E7B-67F3-D35D-B367-D7539DD3AC7E /etc/pwd.db], ts:1523556880226172980: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 20, GT: 17
+path_level: TP: 35, FP: 0
+
+###############Alert###############
+currentTime:1523556880236170861
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> process modify -> [Process 4BDC48E1-3E7C-11E8-A5CB-3FA3753A265A ssh], ts:1523556880236170861: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 20, GT: 17
+path_level: TP: 36, FP: 0
+
+###############Alert###############
+currentTime:1523556880236170861
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File E8D4DBDE-706C-8C52-AC70-FF9F428CC19A /etc/ssl/openssl.cnf], ts:1523556880236170861: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 21, GT: 17
+path_level: TP: 37, FP: 0
+
+###############Alert###############
+currentTime:1523556880236170861
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File B62A98A3-B7A5-4D5D-A5B7-B2EDFD4D21B4 /etc/ssh/ssh_config], ts:1523556880236170861: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 22, GT: 17
+path_level: TP: 38, FP: 0
+
+###############Alert###############
+currentTime:1523556880246173632
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File 2F088072-F622-7354-A2F6-2AA974734AA9 /etc/services], ts:1523556880246173632: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 23, GT: 17
+path_level: TP: 39, FP: 0
+
+###############Alert###############
+currentTime:1523556880246173632
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> network send -> [Network Connect 5DEDEFBF-3E7D-11E8-A5CB-3FA3753A265A 128.55.12.73 : 22], ts:1523556880246173632: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 24, GT: 17
+path_level: TP: 40, FP: 0
+
+###############Alert###############
+currentTime:1523556880326171889
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File C0E60490-62BE-7B5A-BE62-6F2DBA7BA087 /dev/tty], ts:1523556880326171889: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 25, GT: 17
+path_level: TP: 41, FP: 0
+
+###############Alert###############
+currentTime:1523556882196169053
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File 04FB7289-11D6-BD5A-9611-4CC2EABD3AD3 /home/admin/.ssh/known_hosts], ts:1523556882196169053: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 26, GT: 17
+path_level: TP: 42, FP: 0
+
+###############Alert###############
+currentTime:1523556906856170962
+AnomalyScore: 0.99997813
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> process modify -> [Process 4BDC48E1-3E7C-11E8-A5CB-3FA3753A265A ssh], ts:1523556880236170861: 0.1
+Event: [Process 4BDC48E1-3E7C-11E8-A5CB-3FA3753A265A bash] -> file write -> [File 7C86603B-42CF-C158-8F42-E9B268C1AFA5 /home/admin/.bash_history-20112.tmp], ts:1523556906856170962: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 3, FP: 28, GT: 17
+path_level: TP: 43, FP: 0
+
+###############Alert###############
+currentTime:1523556929346168722
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 7B30E76D-3E7D-11E8-A5CB-3FA3753A265A minions], ts:1523556929346168722: 0.1
+true positive:
+attack nodes detected: nginx minions /tmp/tmux-1002 
+node_level: TP: 3, FP: 28, GT: 17
+path_level: TP: 44, FP: 0
+
+###############Alert###############
+currentTime:1523556929346168722
+AnomalyScore: 0.999757
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 7B30E76D-3E7D-11E8-A5CB-3FA3753A265A minions], ts:1523556929346168722: 0.1
+true positive:
+attack nodes detected: nginx minions /tmp/tmux-1002 
+node_level: TP: 3, FP: 28, GT: 17
+path_level: TP: 45, FP: 0
+
+###############Alert###############
+currentTime:1523557208576163772
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+true positive:
+attack nodes detected: XIM nginx /tmp/tmux-1002 
+node_level: TP: 4, FP: 28, GT: 17
+path_level: TP: 46, FP: 0
+
+###############Alert###############
+currentTime:1523557208576163772
+AnomalyScore: 0.999757
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+true positive:
+attack nodes detected: XIM nginx /tmp/tmux-1002 
+node_level: TP: 4, FP: 28, GT: 17
+path_level: TP: 47, FP: 0
+
+###############Alert###############
+currentTime:1523557208586166333
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> network send -> [Network Connect 21A20E29-3E7E-11E8-A5CB-3FA3753A265A 53.158.101.118 : 80], ts:1523557208586166333: 0.1
+true positive:
+attack nodes detected: XIM nginx 53.158.101.118 /tmp/tmux-1002 
+node_level: TP: 5, FP: 28, GT: 17
+path_level: TP: 48, FP: 0
+
+###############Alert###############
+currentTime:1523557208586166333
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+true positive:
+attack nodes detected: XIM nginx /tmp/tmux-1002 
+node_level: TP: 5, FP: 29, GT: 17
+path_level: TP: 49, FP: 0
+
+###############Alert###############
+currentTime:1523557273226164453
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273226164453: 0.1
+true positive:
+attack nodes detected: XIM nginx /tmp/tmux-1002 
+node_level: TP: 5, FP: 29, GT: 17
+path_level: TP: 50, FP: 0
+
+###############Alert###############
+currentTime:1523557273226164453
+AnomalyScore: 0.999757
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273226164453: 0.1
+true positive:
+attack nodes detected: XIM nginx /tmp/tmux-1002 
+node_level: TP: 5, FP: 29, GT: 17
+path_level: TP: 51, FP: 0
+
+###############Alert###############
+currentTime:1523557273236165054
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273226164453: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> network send -> [Network Connect 482AD2B6-3E7E-11E8-A5CB-3FA3753A265A 53.158.101.118 : 80], ts:1523557273236165054: 0.1
+true positive:
+attack nodes detected: XIM nginx 53.158.101.118 /tmp/tmux-1002 
+node_level: TP: 5, FP: 29, GT: 17
+path_level: TP: 52, FP: 0
+
+###############Alert###############
+currentTime:1523557273236165054
+AnomalyScore: 0.99997813
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+true positive:
+attack nodes detected: XIM nginx /tmp/tmux-1002 
+node_level: TP: 5, FP: 29, GT: 17
+path_level: TP: 53, FP: 0
+
+###############Alert###############
+currentTime:1523557273236165054
+AnomalyScore: 0.999993439
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> network send -> [Network Connect 482AD2B6-3E7E-11E8-A5CB-3FA3753A265A 53.158.101.118 : 80], ts:1523557273236165054: 0.1
+true positive:
+attack nodes detected: XIM nginx 53.158.101.118 /tmp/tmux-1002 
+node_level: TP: 5, FP: 29, GT: 17
+path_level: TP: 54, FP: 0
+
+###############Alert###############
+currentTime:1523557299936161106
+AnomalyScore: 0.999993439
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 10A312B0-5B87-B35C-875B-5FF05CB3FD5D /.], ts:1523557299936161106: 0.1
+true positive:
+attack nodes detected: XIM nginx /tmp/tmux-1002 
+node_level: TP: 5, FP: 30, GT: 17
+path_level: TP: 55, FP: 0
+
+###############Alert###############
+currentTime:1523557312116159455
+AnomalyScore: 0.999993439
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 3209A26F-A6EF-0350-AFA6-B1BD1003D390 /tmp/.], ts:1523557312116159455: 0.1
+true positive:
+attack nodes detected: XIM nginx /tmp/tmux-1002 
+node_level: TP: 5, FP: 31, GT: 17
+path_level: TP: 56, FP: 0
+
+###############Alert###############
+currentTime:1523557316606160604
+AnomalyScore: 0.999993439
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 4F66A7D8-7695-7051-9576-684791704F29 /etc/passwd], ts:1523557316606160604: 0.1
+true positive:
+attack nodes detected: XIM nginx /tmp/tmux-1002 
+node_level: TP: 5, FP: 32, GT: 17
+path_level: TP: 57, FP: 0
+
+###############Alert###############
+currentTime:1523557392736161023
+AnomalyScore: 0.999993439
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 57F81A85-12E4-0A52-A412-AF02620A2A60 /var/log/.], ts:1523557392736161023: 0.1
+true positive:
+attack nodes detected: XIM nginx /tmp/tmux-1002 
+node_level: TP: 5, FP: 33, GT: 17
+path_level: TP: 58, FP: 0
+
+###############Alert###############
+currentTime:1523557424536159661
+AnomalyScore: 0.999993439
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File E5F1BC5B-052D-3F5F-AD05-928A8F3FF746 /var/log/netlog], ts:1523557424536159661: 0.1
+true positive:
+attack nodes detected: XIM nginx /var/log/netlog /tmp/tmux-1002 
+node_level: TP: 6, FP: 33, GT: 17
+path_level: TP: 59, FP: 0
+
+###############Alert###############
+currentTime:1523557597066156701
+AnomalyScore: 0.999993439
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File CBBF8038-5237-8651-B752-A1C99186128A /var/log/sendmail], ts:1523557597066156701: 0.1
+true positive:
+attack nodes detected: XIM nginx /var/log/sendmail /tmp/tmux-1002 
+node_level: TP: 7, FP: 33, GT: 17
+path_level: TP: 60, FP: 0
+
+###############Alert###############
+currentTime:1523557617136153757
+AnomalyScore: 0.9999980317
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File CBBF8038-5237-8651-B752-A1C99186128A /var/log/sendmail], ts:1523557597066156701: 0.1
+Event: [File CBBF8038-5237-8651-B752-A1C99186128A /var/log/sendmail] -> process load -> [Process 15267234-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557617136153757: 0.1
+true positive:
+attack nodes detected: XIM nginx /var/log/sendmail sshd /tmp/tmux-1002 
+node_level: TP: 8, FP: 33, GT: 17
+path_level: TP: 61, FP: 0
+
+###############Alert###############
+currentTime:1523557617146155058
+AnomalyScore: 0.99999940951
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File CBBF8038-5237-8651-B752-A1C99186128A /var/log/sendmail], ts:1523557597066156701: 0.1
+Event: [File CBBF8038-5237-8651-B752-A1C99186128A /var/log/sendmail] -> process load -> [Process 15267234-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557617136153757: 0.1
+Event: [Process 15267234-3E7F-11E8-A5CB-3FA3753A265A sendmail] -> file write -> [File 65142C5B-32FF-825F-BF32-60951F827170 /lib/libthr.so.3], ts:1523557617146155058: 0.1
+true positive:
+attack nodes detected: XIM nginx /var/log/sendmail sshd /tmp/tmux-1002 
+node_level: TP: 8, FP: 34, GT: 17
+path_level: TP: 62, FP: 0
+
+###############Alert###############
+currentTime:1523557617146155058
+AnomalyScore: 0.99999940951
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File CBBF8038-5237-8651-B752-A1C99186128A /var/log/sendmail], ts:1523557597066156701: 0.1
+Event: [File CBBF8038-5237-8651-B752-A1C99186128A /var/log/sendmail] -> process load -> [Process 15267234-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557617136153757: 0.1
+Event: [Process 15267234-3E7F-11E8-A5CB-3FA3753A265A sendmail] -> file write -> [File D57B2A07-B373-B75A-B3B3-93790AB76535 /lib/libm.so.5], ts:1523557617146155058: 0.1
+true positive:
+attack nodes detected: XIM nginx /var/log/sendmail sshd /tmp/tmux-1002 
+node_level: TP: 8, FP: 34, GT: 17
+path_level: TP: 63, FP: 0
+
+###############Alert###############
+currentTime:1523557617146155058
+AnomalyScore: 0.99999940951
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File CBBF8038-5237-8651-B752-A1C99186128A /var/log/sendmail], ts:1523557597066156701: 0.1
+Event: [File CBBF8038-5237-8651-B752-A1C99186128A /var/log/sendmail] -> process load -> [Process 15267234-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557617136153757: 0.1
+Event: [Process 15267234-3E7F-11E8-A5CB-3FA3753A265A sendmail] -> file write -> [File DAEA59C0-0137-3357-B701-286F3733F030 /lib/libpcap.so.8], ts:1523557617146155058: 0.1
+true positive:
+attack nodes detected: XIM nginx /var/log/sendmail sshd /tmp/tmux-1002 
+node_level: TP: 8, FP: 34, GT: 17
+path_level: TP: 64, FP: 0
+
+###############Alert###############
+currentTime:1523557630696154168
+AnomalyScore: 0.9999980317
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File CBBF8038-5237-8651-B752-A1C99186128A /var/log/sendmail], ts:1523557597066156701: 0.1
+Event: [File CBBF8038-5237-8651-B752-A1C99186128A /var/log/sendmail] -> process load -> [Process 1D3ACF79-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557630696154168: 0.1
+true positive:
+attack nodes detected: XIM nginx /var/log/sendmail sshd /tmp/tmux-1002 
+node_level: TP: 8, FP: 34, GT: 17
+path_level: TP: 65, FP: 0
+
+###############Alert###############
+currentTime:1523557703996153475
+AnomalyScore: 0.999993439
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File ACA5B1C8-C18E-1C50-8EC1-31B6601C1417 /var/.], ts:1523557703996153475: 0.1
+true positive:
+attack nodes detected: XIM nginx /tmp/tmux-1002 
+node_level: TP: 8, FP: 35, GT: 17
+path_level: TP: 66, FP: 0
+
+###############Alert###############
+currentTime:1523557727956150660
+AnomalyScore: 0.999993439
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main], ts:1523557727956150660: 0.1
+true positive:
+attack nodes detected: XIM nginx /tmp/main /tmp/tmux-1002 
+node_level: TP: 9, FP: 35, GT: 17
+path_level: TP: 67, FP: 0
+
+###############Alert###############
+currentTime:1523557737406150415
+AnomalyScore: 0.9999980317
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main], ts:1523557727956150660: 0.1
+Event: [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main] -> process load -> [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557737406150415: 0.1
+true positive:
+attack nodes detected: XIM nginx /tmp/main sshd /tmp/tmux-1002 
+node_level: TP: 9, FP: 35, GT: 17
+path_level: TP: 68, FP: 0
+
+###############Alert###############
+currentTime:1523557737416150356
+AnomalyScore: 0.99999940951
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main], ts:1523557727956150660: 0.1
+Event: [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main] -> process load -> [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557737406150415: 0.1
+Event: [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A main] -> file write -> [File 9FF334BB-9072-D756-B290-556656D73728 /lib/libutil.so.9], ts:1523557737416150356: 0.1
+true positive:
+attack nodes detected: XIM nginx /tmp/main sshd /tmp/tmux-1002 main 
+node_level: TP: 10, FP: 35, GT: 17
+path_level: TP: 69, FP: 0
+
+###############Alert###############
+currentTime:1523557737426152208
+AnomalyScore: 0.99999940951
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main], ts:1523557727956150660: 0.1
+Event: [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main] -> process load -> [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557737406150415: 0.1
+Event: [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A main] -> file write -> [File 76A739B1-A13E-FD50-BEA1-B218A0FD0400 /lib/libc.so.7], ts:1523557737426152208: 0.1
+true positive:
+attack nodes detected: XIM nginx /tmp/main sshd /tmp/tmux-1002 main 
+node_level: TP: 10, FP: 35, GT: 17
+path_level: TP: 70, FP: 0
+
+###############Alert###############
+currentTime:1523557737426152208
+AnomalyScore: 0.99999940951
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main], ts:1523557727956150660: 0.1
+Event: [File 4DA445A7-56DB-D353-9B56-AD9CD3D373D6 /tmp/main] -> process load -> [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557737406150415: 0.1
+Event: [Process 5CD609A7-3E7F-11E8-A5CB-3FA3753A265A main] -> file write -> [File F410BE96-4C0C-765E-8C4C-6F0E2E760020 /dev/hpet0], ts:1523557737426152208: 0.1
+true positive:
+attack nodes detected: XIM nginx /tmp/main sshd /tmp/tmux-1002 main 
+node_level: TP: 10, FP: 35, GT: 17
+path_level: TP: 71, FP: 0
+
+###############Alert###############
+currentTime:1523557941296153503
+AnomalyScore: 0.999993439
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 84D440C2-4E50-4A5C-904E-C4772C4ACD5A /tmp/test], ts:1523557941296153503: 0.1
+true positive:
+attack nodes detected: XIM nginx /tmp/test /tmp/tmux-1002 
+node_level: TP: 11, FP: 35, GT: 17
+path_level: TP: 72, FP: 0
+
+###############Alert###############
+currentTime:1523557951986146784
+AnomalyScore: 0.9999980317
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 84D440C2-4E50-4A5C-904E-C4772C4ACD5A /tmp/test], ts:1523557941296153503: 0.1
+Event: [File 84D440C2-4E50-4A5C-904E-C4772C4ACD5A /tmp/test] -> process load -> [Process DCBB8D5C-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557951986146784: 0.1
+true positive:
+attack nodes detected: XIM nginx sshd /tmp/tmux-1002 /tmp/test 
+node_level: TP: 11, FP: 35, GT: 17
+path_level: TP: 73, FP: 0
+
+###############Alert###############
+currentTime:1523557994066147634
+AnomalyScore: 0.99997813
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh], ts:1523556880206171169: 0.1
+Event: [Process 5DE4245E-3E7D-11E8-A5CB-3FA3753A265A ssh] -> file write -> [File 36CE0E7B-67F3-D35D-B367-D7539DD3AC7E /etc/pwd.db], ts:1523556880226172980: 0.1
+Event: [File 36CE0E7B-67F3-D35D-B367-D7539DD3AC7E /etc/pwd.db] -> file read -> [Process F5CBF8F6-3E7F-11E8-A5CB-3FA3753A265A sshd], ts:1523557994066147634: 0.1
+true positive:
+attack nodes detected: nginx sshd /tmp/tmux-1002 
+node_level: TP: 11, FP: 35, GT: 17
+path_level: TP: 74, FP: 0
+
+###############Alert###############
+currentTime:1523558002306147310
+AnomalyScore: 0.991
+AlertPath:
+Event: [File 5BF9EE5C-9E16-0959-969E-2DA449099F59 /usr/sbin/service] -> process load -> [Process F5A82055-3E7F-11E8-A5CB-3FA3753A265A bash], ts:1523557993806145409: 0.1
+Event: [Process F5A82055-3E7F-11E8-A5CB-3FA3753A265A sh] -> process modify -> [Process F00AC566-3E7F-11E8-A5CB-3FA3753A265A sh], ts:1523557993886151120: 0.1
+Event: [Process F00AC566-3E7F-11E8-A5CB-3FA3753A265A bash] -> file write -> [File 313E5A7D-DE6A-AC5A-AADE-55028AACB1E4 /home/admin/.bash_history-20603.tmp], ts:1523558002306147310: 0.1
+false positive:
+node_level: TP: 11, FP: 38, GT: 17
+path_level: TP: 74, FP: 1
+
+###############Alert###############
+currentTime:1523558011166147460
+AnomalyScore: 0.9999980317
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 84D440C2-4E50-4A5C-904E-C4772C4ACD5A /tmp/test], ts:1523557941296153503: 0.1
+Event: [File 84D440C2-4E50-4A5C-904E-C4772C4ACD5A /tmp/test] -> process load -> [Process 0001A528-3E80-11E8-A5CB-3FA3753A265A sshd], ts:1523558011166147460: 0.1
+true positive:
+attack nodes detected: XIM nginx sshd /tmp/tmux-1002 /tmp/test 
+node_level: TP: 11, FP: 38, GT: 17
+path_level: TP: 75, FP: 1
+
+###############Alert###############
+currentTime:1523558085856142015
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 2C8550E7-3E80-11E8-A5CB-3FA3753A265A pwait], ts:1523558085856142015: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 11, FP: 39, GT: 17
+path_level: TP: 76, FP: 1
+
+###############Alert###############
+currentTime:1523558085856142015
+AnomalyScore: 0.999757
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 2C8550E7-3E80-11E8-A5CB-3FA3753A265A pwait], ts:1523558085856142015: 0.1
+true positive:
+attack nodes detected: nginx /tmp/tmux-1002 
+node_level: TP: 11, FP: 39, GT: 17
+path_level: TP: 77, FP: 1
+
+###############Alert###############
+currentTime:1523558088966144849
+AnomalyScore: 0.991
+AlertPath:
+Event: [File 5BF9EE5C-9E16-0959-969E-2DA449099F59 /usr/sbin/service] -> process load -> [Process 21A4A5DA-3E80-11E8-A5CB-3FA3753A265A bash], ts:1523558067596142773: 0.1
+Event: [Process 21A4A5DA-3E80-11E8-A5CB-3FA3753A265A sh] -> process modify -> [Process 1FC5B440-3E80-11E8-A5CB-3FA3753A265A sh], ts:1523558067656150151: 0.1
+Event: [Process 1FC5B440-3E80-11E8-A5CB-3FA3753A265A bash] -> file write -> [File C53628B0-83B0-EB51-B083-A65F01EBC6D8 /home/admin/.bash_history-20641.tmp], ts:1523558088966144849: 0.1
+false positive:
+node_level: TP: 11, FP: 40, GT: 17
+path_level: TP: 77, FP: 2
+
+###############Alert###############
+currentTime:1523558095816150254
+AnomalyScore: 0.9999980317
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557208576163772: 0.1
+Event: [Process 219DE547-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523557208586166333: 0.1
+Event: [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom] -> file read -> [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM], ts:1523557273236165054: 0.1
+Event: [Process 48289024-3E7E-11E8-A5CB-3FA3753A265A XIM] -> file write -> [File 84D440C2-4E50-4A5C-904E-C4772C4ACD5A /tmp/test], ts:1523557941296153503: 0.1
+Event: [File 84D440C2-4E50-4A5C-904E-C4772C4ACD5A /tmp/test] -> process load -> [Process 327621AE-3E80-11E8-A5CB-3FA3753A265A sshd], ts:1523558095816150254: 0.1
+true positive:
+attack nodes detected: XIM nginx sshd /tmp/tmux-1002 /tmp/test 
+node_level: TP: 11, FP: 40, GT: 17
+path_level: TP: 78, FP: 2
+
+###############Alert###############
+currentTime:1523558131776142868
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 47E61FFC-3E80-11E8-A5CB-3FA3753A265A test], ts:1523558131776142868: 0.1
+true positive:
+attack nodes detected: test nginx /tmp/tmux-1002 
+node_level: TP: 12, FP: 40, GT: 17
+path_level: TP: 79, FP: 2
+
+###############Alert###############
+currentTime:1523558131776142868
+AnomalyScore: 0.999757
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 47E61FFC-3E80-11E8-A5CB-3FA3753A265A test], ts:1523558131776142868: 0.1
+true positive:
+attack nodes detected: test nginx /tmp/tmux-1002 
+node_level: TP: 12, FP: 40, GT: 17
+path_level: TP: 80, FP: 2
+
+###############Alert###############
+currentTime:1523558131806155232
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 47E61FFC-3E80-11E8-A5CB-3FA3753A265A test], ts:1523558131776142868: 0.1
+Event: [Process 47E61FFC-3E80-11E8-A5CB-3FA3753A265A test] -> network send -> [Network Connect 47EA0B5C-3E80-11E8-A5CB-3FA3753A265A 192.113.144.28 : 80], ts:1523558131806155232: 0.1
+true positive:
+attack nodes detected: 192.113.144.28 test nginx /tmp/tmux-1002 
+node_level: TP: 13, FP: 40, GT: 17
+path_level: TP: 81, FP: 2
+
+###############Alert###############
+currentTime:1523558131806155232
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 47E61FFC-3E80-11E8-A5CB-3FA3753A265A test], ts:1523558131776142868: 0.1
+Event: [Process 47E61FFC-3E80-11E8-A5CB-3FA3753A265A test] -> process fork -> [Process 47EB4608-3E80-11E8-A5CB-3FA3753A265A test], ts:1523558131806155232: 0.1
+true positive:
+attack nodes detected: test nginx /tmp/tmux-1002 
+node_level: TP: 13, FP: 40, GT: 17
+path_level: TP: 82, FP: 2
+
+###############Alert###############
+currentTime:1523558297536133968
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 47E61FFC-3E80-11E8-A5CB-3FA3753A265A test], ts:1523558131776142868: 0.1
+Event: [Process 47E61FFC-3E80-11E8-A5CB-3FA3753A265A test] -> process fork -> [Process AAB27EFF-3E80-11E8-A5CB-3FA3753A265A test], ts:1523558297536133968: 0.1
+true positive:
+attack nodes detected: test nginx /tmp/tmux-1002 
+node_level: TP: 13, FP: 40, GT: 17
+path_level: TP: 83, FP: 2
+
+###############Alert###############
+currentTime:1523558311376137816
+AnomalyScore: 0.9999271
+AlertPath:
+Event: [Process 11C64B2C-3DC3-11E8-A5CA-3FA3753A265A nginx] -> file modify -> [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002], ts:1523556130376185722: 0.1
+Event: [File 5453C813-1A0E-4359-8E1A-41B40943CDC5 /tmp/tmux-1002] -> process load -> [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A master], ts:1523556194106186440: 0.1
+Event: [Process C4F4FF22-3E7B-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523556194106186440: 0.1
+Event: [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf] -> file read -> [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002], ts:1523556405396185538: 0.1
+Event: [Process 42E4A848-3E7C-11E8-A5CB-3FA3753A265A tmux-1002] -> file write -> [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints], ts:1523556405396185538: 0.1
+Event: [File 24782D99-5286-465D-8652-63817D46C1BD /var/run/ld-elf.so.hints] -> file read -> [Process 47E61FFC-3E80-11E8-A5CB-3FA3753A265A test], ts:1523558131776142868: 0.1
+Event: [Process 47E61FFC-3E80-11E8-A5CB-3FA3753A265A test] -> file write -> [File 48280F35-3E7E-11E8-A5CB-3FA3753A265A <unknown>], ts:1523558311376137816: 0.1
+true positive:
+attack nodes detected: test nginx /tmp/tmux-1002 
+node_level: TP: 13, FP: 41, GT: 17
+path_level: TP: 84, FP: 2
+

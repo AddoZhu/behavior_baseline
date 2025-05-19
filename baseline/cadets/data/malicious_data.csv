@@ -1,0 +1,70 @@
+Network Connect 81.49.200.166 : 44623, network connect, Process nginx
+Process nginx, file open, File /tmp/vUgefal
+Process nginx, file write, File /tmp/vUgefal
+Process nginx, file modify, File /tmp/vUgefal
+File /tmp/vUgefal, process load, Process master
+Process vUgefal, file open, File /var/log/devc
+Process vUgefal, file write, File /var/log/devc
+Process vUgefal, file modify, File /var/log/devc
+Process vUgefal, network connect, Network Connect 61.167.39.128 : 80
+Network Connect 25.159.96.207 : 45203, network connect, Process nginx
+Process nginx, file open, File /tmp/tmux-1002
+Process nginx, file write, File tmux-1002
+Process nginx, file modify, File /tmp/tmux-1002
+File /tmp/tmux-1002, process load, Process master
+File /tmp/tmux-1002, process load, Process sshd
+File /tmp/tmux-1002, process load, Process cron
+Process nginx, file open, File /tmp/minions
+Process nginx, file write, File minions
+Process nginx, file modify, File /tmp/minions
+File /tmp/minions, process load, Process master
+File /tmp/minions, process load, Process sshd
+Process nginx, file open, File /tmp/font
+Process nginx, file write, File font
+Process nginx, file modify, File /tmp/font
+File /tmp/font, process load, Process sshd
+Process nginx, file open, File /tmp/XIM
+Process nginx, file write, File XIM
+Process nginx, file modify, File /tmp/XIM
+File /tmp/XIM, process load, Process inetd
+Process XIM, network connect, Network Connect 53.158.101.118 : 80
+Network Connect 53.158.101.118 : 80, network connect, Process XIM
+File /tmp/XIM, process load, Process sshd
+Process XIM, file open, File /var/log/netlog
+Process XIM, file write, File netlog
+Process XIM, file modify, File /var/log/netlog
+File /var/log/netlog, process load, Process cron
+Process XIM, file open, File /var/log/sendmail
+Process XIM, file write, File sendmail
+Process XIM, file modify, File /var/log/sendmail
+File /var/log/sendmail, process load, Process sshd
+Process XIM, file open, File /tmp/main
+Process XIM, file write, File main
+Process XIM, file modify, File /tmp/main
+File /tmp/main, process load, Process sshd
+Process XIM, file open, File /tmp/test
+Process XIM, file write, File test
+Process XIM, file modify, File /tmp/test
+File /tmp/test, process load, Process XIM
+Process test, network connect, Network Connect 192.113.144.28 : 80
+Network Connect 192.113.144.28 : 80, network connect, Process test
+Network Connect 25.159.96.207 : 58625, network connect, Process nginx
+Process nginx, file open, File /tmp/pEja72mA
+Process nginx, file write, File pEja72mA
+Process nginx, file modify, File /tmp/pEja72mA
+Process nginx, file open, File /tmp/eWq10bVcx
+Process nginx, file write, File eWq10bVcx
+Process nginx, file modify, File /tmp/eWq10bVcx
+File /tmp/pEja72mA, process load, Process sshd
+Process pEja72mA, network connect, Network Connect 53.158.101.118 : 80
+Network Connect 53.158.101.118 : 80, network connect, Process pEja72mA
+Process pEja72mA, file open, File /tmp/eWq10bVcx
+Process pEja72mA, file open, File /tmp/memhelp.so
+Process pEja72mA, file write, File memhelp.so
+Process pEja72mA, file open, File /tmp/eraseme
+Process pEja72mA, file write, File eraseme
+Process pEja72mA, file open, File /tmp/done.so
+Process pEja72mA, file write, File done.so
+Process pEja72mA, process modify, Process sshd
+Process sshd, network connect, Network Connect 198.115.236.119 : 80
+Network Connect 198.115.236.119 : 80, network connect, Process sshd
