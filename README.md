@@ -1,0 +1,6 @@
+# The Case for Learned Provenance-based System Behavior Baseline
+
+Provenance graphs describe data flows and causal dependencies of host activities, enabling to track the data propagation and manipulation throughout the systems, which provide a foundation for intrusion detection.
+However, these Provenance-based Intrusion Detection Systems (PIDSes) face significant challenges in storage, representation, and analysis, which impede the efficacy of machine learning models such as Graph Neural Networks (GNNs) in processing and learning from these graphs.
+This paper presents a novel learning-based anomaly detection method designed to efficiently embed and analyze large-scale provenance graphs. Our approach integrates dynamic graph processing with adaptive encoding, facilitating compact embeddings that effectively address out-of-vocabulary (OOV) elements and adapt to normality shifts in dynamic real-world environments. Subsequently, we incorporate this refined baseline into a tag-propagation framework for real-time detection.
+Our evaluation demonstrates the method's accuracy and adaptability in anomaly path mining, significantly advancing the state-of-the-art in handling and analyzing provenance graphs for anomaly detection.
