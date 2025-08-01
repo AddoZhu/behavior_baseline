@@ -27,8 +27,8 @@ def parse_triplet(triplet_str):
 
 
 def clean_text(text):
-    # words = re.sub(r'/', ' ', text).split() 
-    words = text.split() 
+    words = re.sub(r'/', ' ', text).split() 
+    # words = text.split() 
 
     def file_case():
         return [word for word in words if word]
@@ -40,8 +40,7 @@ def clean_text(text):
         return [word for word in words if word]
     
     def default_case():
-        return ['relationship']
-        # return [word for word in words if word]
+        return [word for word in words if word]
 
     switch = {
         "File": file_case,
